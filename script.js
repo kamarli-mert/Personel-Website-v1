@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="contact-info">
                         <h2>Phone</h2>
-                        <a href="tel:+905425160390">+90 542 516 03 90</a>
+                        <a href="tel:-">-</a>
                     </div>
                 </div>
             </div>
