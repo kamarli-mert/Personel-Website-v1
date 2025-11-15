@@ -19,8 +19,41 @@ document.addEventListener('DOMContentLoaded', () => {
             <h1>Experience</h1>
             <div class="section">
                 <div class="section-header">
-                    <h2>Yazılım Yapay Zeka Yaratıcılık Topluluğu</h2>
-                    <p class="date">September 2024 - Present</p>
+                    <h2>Davraz Robotic</h2>
+                    <p class="date">January 2025 - Present</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Co-Founder</h3>
+                    <p>Isparta, Türkiye</p>
+                    <ul>
+                        <li>Co-founded Davraz Robotics with 4 team members</li>
+                        <li>Participating in TEKNOFEST competitions across multiple categories</li>
+                        <li>Leading specialized teams: IGM Davraz Roket Takımı, IGM Gölcük Su Altı Takımı, IGM Eğirdir Deniz Aracı Takımı</li>
+                        <li>Competed in IGM Gölcük UWR Team and KOD 404 - Teknofest Doğal Dil İşleme Competition</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>Yazılım Yapay Zeka Yaratıcılık Community</h2>
+                    <p class="date">August 2025 - Present</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Vice President</h3>
+                    <p>Antalya, Türkiye</p>
+                    <ul>
+                        <li>Organizing trainings, seminars, and workshops for club members</li>
+                        <li>Supporting club operations and event planning</li>
+                        <li>Managing external relations and networking opportunities</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>Yazılım Yapay Zeka Yaratıcılık Community</h2>
+                    <p class="date">September 2024 - August 2025</p>
                 </div>
                 <div class="experience-item">
                     <h3>Sponsorship and Organization Team Member</h3>
@@ -51,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="section">
                 <div class="section-header">
                     <h2>Deneyap Teknoloji Atölyeleri</h2>
-                    <p class="date">February 2019 - June 2023 · 4 years 5 months</p>
+                    <p class="date">September 2019 - June 2024</p>
                 </div>
                 <div class="experience-item">
                     <h3>Student</h3>
@@ -115,37 +148,103 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="section">
                 <h2>Seminars and Conferences</h2>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>Underwater Systems Training - T3 Foundation</h2>
+                        <span class="date">August 2025 - İstanbul, Türkiye</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>5-day training on mechanical, software, and system aspects of unmanned marine vehicles</h3>
+                        <p>4 days of theoretical education and 1 day of practical testing. Successfully operated and floated the vehicle on water.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>Image Processing with YOLOv12/v13 - T3 Foundation</h2>
+                        <span class="date">August 2025 - Online</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>Computer Vision and Object Detection</h3>
+                        <p>Hands-on experience with YOLO models for AI projects.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>BİLMÖK - Türkiye's Largest Student Congress</h2>
+                        <span class="date">February 22-23, 2025 - Akdeniz University</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>21st Computer Engineering Students Congress</h3>
+                        <p>Sessions on artificial intelligence, cybersecurity, software development and technology ethics.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>Aygaz Python Bootcamp: Next-Generation Project Camp</h2>
+                        <span class="date">September 2024 - Online</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>Python Development Bootcamp</h3>
+                        <p>Organized by Koç Holding, Aygaz A.Ş., 10million.AI, and Global AI Hub. Developed a Rock-Paper-Scissors game as final project.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>GenAI: Introduction to Prompt Engineering Project Bootcamp</h2>
+                        <span class="date">March-April 2024 - Online</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>AI and Prompt Engineering</h3>
+                        <p>Developed a book recommendation website using AI tools.</p>
+                    </div>
+                </div>
                 
                 <div class="section">
                     <div class="section-header">
-                        <h2>Career Development Program</h2>
-                        <span class="date">March 6, 2024</span>
+                        <h2>Kodluyoruz - Yeni İşime Hazırlanıyorum</h2>
+                        <span class="date">March 6, 2024 - Akdeniz University</span>
                     </div>
                     <div class="education-item">
                         <h3>Professional Development Training</h3>
-                        <p>Akdeniz University, Antalya</p>
+                        <p>Organized by Kodluyoruz, Piksel Akademi, Antalya Teknokent, and Microsoft.</p>
                     </div>
                 </div>
 
                 <div class="section">
                     <div class="section-header">
-                        <h2>GÜNKAF'24</h2>
-                        <span class="date">February 23-24, 2024</span>
+                        <h2>GÜNKAF 24</h2>
+                        <span class="date">February 23-24, 2024 - Mimar Sinan Convention Center</span>
                     </div>
                     <div class="education-item">
                         <h3>Technology and Engineering Conference</h3>
-                        <p>Presidency of Human Resources Office, Türkiye</p>
+                        <p>Connected with leading companies, explored internship and job opportunities.</p>
                     </div>
                 </div>
 
                 <div class="section">
                     <div class="section-header">
-                        <h2>Big Data & Intelligent Data Course</h2>
-                        <span class="date">January 25 - February 5, 2021</span>
+                        <h2>Ankara University Computer Society - SektörX</h2>
+                        <span class="date">February 12-17, 2024 - Online</span>
                     </div>
                     <div class="education-item">
-                        <h3>Data Analysis and Engineering with R Programming</h3>
-                        <p>Kadir Has University Winter School for High School Students</p>
+                        <h3>Industry Insights Event</h3>
+                        <p>Gained insights on cybersecurity, software development, artificial intelligence, data science, and system engineering.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header">
+                        <h2>Kadir Has University Winter School</h2>
+                        <span class="date">January 25 - February 5, 2021 - Online</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>Big Data - Intelligent Data & Brain Science, Neuroscience, and AI</h3>
+                        <p>Data management and analysis using R, Introduction to Molecular Biology and Genetic Engineering.</p>
                     </div>
                 </div>
             </div>
@@ -171,6 +270,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
                             <li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design & Engineering Tools</h3>
+                        <ul>
+                            <li>Fusion 360</li>
+                            <li>Autodesk CFD</li>
+                            <li>EasyEDA</li>
+                            <li>KiCad</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Embedded Systems</h3>
+                        <ul>
+                            <li>STM32CubeIDE</li>
+                            <li>Electronic Circuit Design</li>
+                            <li>Rocket Systems Development</li>
                         </ul>
                     </div>
                 </div>
@@ -240,6 +356,49 @@ document.addEventListener('DOMContentLoaded', () => {
             <h1>Projects</h1>
             <div id="github-projects"></div>
         `,
+        awards: `
+            <h1>Awards & Honours</h1>
+            
+            <div class="section">
+                <div class="section-header">
+                    <h2>NASA Space Apps Challenge 2025</h2>
+                    <p class="date">October 2025</p>
+                </div>
+                <div class="education-item">
+                    <p>Developed a dynamic web application using AI and Large Language Models to analyze 608 publications on biological systems' adaptation to space environments for NASA's Lunar and Mars exploration missions. The project featured automatic content extraction, summary generation, and an interactive dashboard that enabled scientists and mission architects to quickly query thousands of experimental results and make critical decisions for future missions.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>TEKNOFEST Turkish Natural Language Processing Competition</h2>
+                    <p class="date">Finalist</p>
+                </div>
+                <div class="education-item">
+                    <p>Used Natural Language Processing (NLP) techniques and Large Language Models (LLMs) to transliterate Ottoman Turkish texts into the modern Latin alphabet. The project involved developing character recognition, root word analysis, and context-based letter mapping processes to make Ottoman Turkish texts more accessible and readable in digital environments.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>NASA Space Apps Challenge</h2>
+                    <p class="date">May 10, 2024</p>
+                </div>
+                <div class="education-item">
+                    <p>Participated as part of the METUOR Space team, contributing to a project focused on the interactions between natural phenomena and their long-term effects on humanity. Our team designed a 3D model and educational games to raise awareness about these interactions.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>TEKNOFEST Makeathon Competition</h2>
+                    <p class="date">October 1, 2023 - 5th Place</p>
+                </div>
+                <div class="education-item">
+                    <p>Achieved 5th place with Fırtına Team in the TEKNOFEST Makeathon competition. This experience showcased our teamwork, problem-solving, and project development skills.</p>
+                </div>
+            </div>
+        `,
         services: `
             <div class="section">
                 <div class="section-header">
@@ -278,6 +437,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Technology stack selection</li>
                     <li>Performance optimization</li>
                 </ul>
+            </div>
+        `,
+        volunteering: `
+            <h1>Volunteering</h1>
+            
+            <div class="section">
+                <div class="section-header">
+                    <h2>BİLMÖK - Organizing Committee</h2>
+                    <p class="date">February 22-23, 2025</p>
+                </div>
+                <div class="education-item">
+                    <h3>Türkiye's Largest Student Congress at Akdeniz University</h3>
+                    <p>Akdeniz University - Atatürk Conference Hall</p>
+                    <p>Volunteered in organizing the 21st Computer Engineering Students Congress. Hosted sessions on artificial intelligence, cybersecurity, software development and technology ethics. Brought together hundreds of IT-enthusiast students and leading industry names.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>TEKNOFEST 2024 Drone Championship</h2>
+                    <p class="date">August 24-25, 2024</p>
+                </div>
+                <div class="education-item">
+                    <h3>Event Volunteer</h3>
+                    <p>Isparta - Atatürk Stadium</p>
+                    <p>Supported event organization by assisting with venue setup, participant coordination, and ensuring smooth event operations. Enhanced organizational skills and deepened interest in technology through valuable networking opportunities.</p>
+                </div>
             </div>
         `,
         about: `
