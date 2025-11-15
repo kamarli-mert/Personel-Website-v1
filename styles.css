@@ -220,11 +220,51 @@ p {
     gap: 15px;
     background-color: var(--bg-color);
     transition: transform 0.5s ease;
+    grid-template-areas:
+        "exp edu skills"
+        "proj logo about"
+        "contact contact contact";
 }
 
 /* When content is active, slide menu to left */
 .content-active .side-menu {
     transform: translateX(-700px);
+}
+
+.center-logo {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    object-fit: contain;
+    grid-area: logo;
+    place-self: center;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+}
+
+.center-logo:hover {
+    transform: rotate(360deg);
+}
+
+/* Contact & Social card spans two columns */
+.menu-item[data-section="contact"] {
+    grid-column: span 3;
+    padding: 15px;
+    min-height: auto;
+    justify-content: center;
+}
+
+.menu-item[data-section="experience"] { grid-area: exp; }
+.menu-item[data-section="education"] { grid-area: edu; }
+.menu-item[data-section="skills"] { grid-area: skills; }
+.menu-item[data-section="projects"] { grid-area: proj; }
+.menu-item[data-section="about"] { grid-area: about; }
+.menu-item[data-section="contact"] { grid-area: contact; }
+
+/* Eski logo menü kartı stillerini kaldır */
+.menu-item[data-section="logo"],
+.menu-logo {
+    display: none;
 }
 
 .menu-item {
@@ -301,30 +341,6 @@ p {
 .social-icons i {
     font-size: 1.3rem;
 }
-
-/* Contact & Social card spans two columns */
-.menu-item[data-section="contact"] {
-    grid-column: span 3;
-    padding: 15px;
-    min-height: auto;
-    justify-content: center;
-}
-
-/* Adjust grid for 3x2 layout plus contact spanning bottom */
-.side-menu {
-    grid-template-areas:
-        "exp edu skills"
-        "proj serv about"
-        "contact contact contact";
-}
-
-.menu-item[data-section="experience"] { grid-area: exp; }
-.menu-item[data-section="education"] { grid-area: edu; }
-.menu-item[data-section="skills"] { grid-area: skills; }
-.menu-item[data-section="projects"] { grid-area: proj; }
-.menu-item[data-section="services"] { grid-area: serv; }
-.menu-item[data-section="about"] { grid-area: about; }
-.menu-item[data-section="contact"] { grid-area: contact; }
 
 /* About Me card specific styles */
 .menu-item[data-section="about"] {
@@ -1071,4 +1087,18 @@ span.date {
 .section:not([data-section="about"]) p {
     font-size: 0.9rem;
     color: #888;
+}
+
+.menu-item[data-section="logo"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-logo {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    object-fit: contain;
 } 
