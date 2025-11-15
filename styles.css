@@ -216,13 +216,14 @@ p {
     padding: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     gap: 15px;
     background-color: var(--bg-color);
     transition: transform 0.5s ease;
     grid-template-areas:
         "exp edu skills"
         "proj logo about"
+        "awards awards volunteer"
         "contact contact contact";
 }
 
@@ -246,7 +247,12 @@ p {
     transform: rotate(360deg);
 }
 
-/* Contact & Social card spans two columns */
+/* Awards card spans two columns */
+.menu-item[data-section="awards"] {
+    grid-column: span 2;
+}
+
+/* Contact & Social card spans three columns */
 .menu-item[data-section="contact"] {
     grid-column: span 3;
     padding: 15px;
@@ -259,6 +265,8 @@ p {
 .menu-item[data-section="skills"] { grid-area: skills; }
 .menu-item[data-section="projects"] { grid-area: proj; }
 .menu-item[data-section="about"] { grid-area: about; }
+.menu-item[data-section="awards"] { grid-area: awards; }
+.menu-item[data-section="volunteering"] { grid-area: volunteer; }
 .menu-item[data-section="contact"] { grid-area: contact; }
 
 /* Eski logo menü kartı stillerini kaldır */
