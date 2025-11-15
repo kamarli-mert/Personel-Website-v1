@@ -215,16 +215,16 @@ p {
     width: 750px;
     padding: 25px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, auto);
     gap: 15px;
     background-color: var(--bg-color);
     transition: transform 0.5s ease;
     grid-template-areas:
-        "exp edu skills"
-        "proj logo about"
-        "awards awards volunteer"
-        "contact contact contact";
+        "exp exp edu edu skills skills"
+        "proj proj logo logo about about"
+        "awards awards awards volunteer volunteer volunteer"
+        "contact contact contact contact contact contact";
 }
 
 /* When content is active, slide menu to left */
@@ -247,14 +247,8 @@ p {
     transform: rotate(360deg);
 }
 
-/* Awards card spans two columns */
-.menu-item[data-section="awards"] {
-    grid-column: span 2;
-}
-
-/* Contact & Social card spans three columns */
+/* Contact & Social card spans all columns */
 .menu-item[data-section="contact"] {
-    grid-column: span 3;
     padding: 15px;
     min-height: auto;
     justify-content: center;
